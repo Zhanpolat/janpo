@@ -1,38 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
-@import "nullstyle.csss"
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
+* {
+    box-sizing: border-box;
 }
-*,*:befor, *: after{
-mox-box-sizing: border-box;
-webkit-box-sizing: border-box;
-box-sizing: border-box;
+*:hover,
+*:active {
+    -webkit-tap-highlight-color: transparent;
 }
-:focus,active{outline: none;}
-a:focus,a:active{outline: none;}
-nav,footer,header,aside{display: block;}
-html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+
+body {
+    padding: 0;
+    margin: 0;
 }
-input,button,textarea{font-family: inherit;}
-input : :-ms-clear{display: none;}
-button{cursor: pointer;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-ing{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight:400 ;}
-body{
-	font-family: Arial,"Helvetica neue", Helvetica, sans-serif;
+a {
+    color: unset;
+    text-decoration: unset;
+}
+ul {
+    padding: unset;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+img {
+    margin: 0;
+}
+
+// ! forms and inputs
+option::-ms-expand {
+    display: none;
+}
+input {
+    outline: unset;
+    border: ;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+    
+}
+
+address {
+    font-style: normal;
 }
 .border{
 
